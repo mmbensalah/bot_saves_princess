@@ -1,4 +1,3 @@
-require 'pry'
 class Matrix
   attr_reader :size, :matrix, :princess, :bot
 
