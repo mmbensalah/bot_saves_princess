@@ -1,3 +1,4 @@
+require 'pry'
 class Matrix
   attr_reader :size, :matrix, :princess, :bot
 
@@ -31,6 +32,10 @@ class Matrix
   private
 
   def get_input_matrix
-    $stdin.gets.chomp
+    input = $stdin.gets.chomp
+    if input.length != @size
+      raise ArgumentError.new("Incorrect number of columns")
+    end
+    input
   end
 end
