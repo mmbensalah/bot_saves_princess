@@ -1,6 +1,10 @@
 ## bot_saves_princess
 
-### Run Game
+### Run Game Through HackerRank
+1. Copy the code from master_file.rb
+2. Paste into HackerRank input field.
+
+### Run Game Locally
 1. Clone down this project
 2. From CL and in the project root, run `ruby runner.rb`.
 3. Follow input instructions as prompted.
